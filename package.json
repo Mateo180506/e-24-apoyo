@@ -21,26 +21,17 @@
       "assets/**/*"
     ],
     "win": {
-      "target": "nsis",
-      "icon": "assets/icon.ico"
-    },
-    "mac": {
-      "target": "dmg"
-    },
-    "linux": {
-      "target": "AppImage"
+      "target": "nsis"
     },
     "nsis": {
       "oneClick": false,
       "allowToChangeInstallationDirectory": true,
-      "installerIcon": "assets/icon.ico",
-      "installerHeaderIcon": "assets/icon.ico",
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true
     }
   },
-  "keywords": ["elecciones", "colombia", "registraduria", "escrutinio"],
-  "author": "Registraduría Nacional",
+  "keywords": ["elecciones", "colombia", "registraduria"],
+  "author": "Mateo180506",
   "license": "MIT",
   "devDependencies": {
     "electron": "^28.0.0",
